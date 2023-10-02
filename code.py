@@ -79,9 +79,6 @@ cw_url = f"http://{photobooth_ip}:{button_server_port}/commands/rotary-cw"      
 ccw_url = f"http://{photobooth_ip}:{button_server_port}/commands/rotary-ccw"                ####   Specify your Photobooth IP and Hardware Button Server Port   ####
 btn_press_url = f"http://{photobooth_ip}:{button_server_port}/commands/rotary-btn-press"    ####   Specify your Photobooth IP and Hardware Button Server Port   ####
 
-# Connect to SSID
-#wifi.radio.connect(os.getenv('CIRCUITPY_WIFI_SSID'), os.getenv('CIRCUITPY_WIFI_PASSWORD'))
-
 pool = socketpool.SocketPool(wifi.radio)
 requests = adafruit_requests.Session(pool, ssl.create_default_context())
 
