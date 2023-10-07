@@ -6,7 +6,7 @@ Preparation:
 1. Download the latest adafruit_circuitpython_etc.uf2 file and copy it on the CIRCUITPY drive as described here: https://learn.adafruit.com/pico-w-wifi-with-circuitpython/installing-circuitpython
 2. Create your settings.toml file including your Photobooth´s AP wifi_ssid and wifi_password as described here: https://learn.adafruit.com/pico-w-wifi-with-circuitpython/create-your-settings-toml-file.
 3. Download the latest Adafruit CircuitPython Library Bundle that contains the required CircuitPython libraries for this project. Download the latest 8x.zip file from here: https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases/
-4. Unzip the zip file and copy the following files and folders from the lib folder to the CIRCUITPY lib folder: adafruit_debouncer.mpy, adafruit_requests.mpy
+4. Unzip the zip file and copy the following files and folders from the lib folder to the CIRCUITPY lib folder: adafruit_debouncer.mpy, adafruit_requests.mpy, adafruit_ticks.mpy
 5. Download the code.py file and copy it to the Pico´s CIRCUITPY folder.
 6. Have fun!
 
